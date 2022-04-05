@@ -99,15 +99,15 @@
                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" >
 
                   <p class="name">
-                    <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+                    <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" required/>
                   </p>
                 
                   <p class="email">
-                    <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+                    <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" required/>
                   </p>
                 
                   <p class="text">
-                    <textarea name="text" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                    <textarea name="text" class="feedback-input" id="comment" placeholder="Message" required></textarea>
                   </p>
 
                   <div class="recaptcha" data-netlify-recaptcha="true"></div>
