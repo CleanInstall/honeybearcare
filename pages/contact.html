@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles.css">
+   <title>HoneyBear Care</title>
+</head>
+<body>
+   <div class="background">
+      <div class="container full_view">
+         
+         <header>
+            <div class="header">
+               <div class="top_nav">
+                  <img class="logo" src="/assets/Original Logo file 1.png" alt="Logo" />
+                  <div class="hide_for_mobile"> 
+                     <ul class="top_text ">
+                        <li>8 Henshaw Street Suite F</li>
+                        <li>(781)-281-0759</li>
+                        <li>hello@honeybear-care.com</li>
+                     </ul>
+                  </div>
+                  <img class="menu_bar hide_for_desktop" src="/assets/icons8-menu-rounded-50.png" alt="menu" />  
+               </div>
+
+
+                  <div class="desktop_menu hide_for_mobile">
+                     <ul class="center">
+                        <li><a class="border" href="../index.html">Home</a></li>
+                        <li><a class="border" href="./programs.html">Programs</a></li>
+                        <li><a href="./careers.html">Careers</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <nav>
+                  <div class="nav_items hide_for_desktop hide_for_tablet" >
+                     <img class="close_btn" src="../assets/icons8-close.svg" alt="close button"/>
+                     <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="./programs.html">Programs</a></li>
+                        <li><a href="./careers.html">Careers</a></li>
+                     </ul>
+                  </div>
+               </nav>
+         </header>
+
+         
+         <div class="page_content">
+            <h1 class="page_heading">Contact Us</h1>
+            
+            <form name="contact_page" method="POST" data-netlify="true" data-netlify-recaptcha="true" >
+
+               <p class="name">
+                 <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+               </p>
+             
+               <p class="email">
+                 <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+               </p>
+             
+               <p class="text">
+                 <textarea name="text" class="feedback-input" id="comment" placeholder="Message"></textarea>
+               </p>
+
+               <div class="recaptcha" data-netlify-recaptcha="true"></div>
+
+             
+               <div class="submit">
+                  <input type="submit" value="Send" id="button-blue" />
+               </div>
+
+            </form>
+         </div>
+
+       
+
+         <footer class="footer">
+            <ul class="info">
+               <li>8 Henshaw Street Suite F</li>
+               <li>(781)-281-0759</li>
+               <li>hello@honeybear-care.com</li>
+            </ul>
+         </footer>
+      </div>
+   </div>
+
+   <script src="../script.js"></script>
+</body>
+</html>
