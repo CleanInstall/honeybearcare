@@ -47,10 +47,13 @@ header {
 }
 
 .top_nav {
+   background-color: white;
+   color: black;
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-bottom: 1em;
+   padding: .5em 1em;
 
    li{
       margin-right: 1em;
@@ -59,7 +62,7 @@ header {
 
 .top_text {
    display: flex;
-   color: white;
+   color: black;
    font-size: 1.625rem;
 }
 
@@ -204,9 +207,9 @@ form {
    margin-bottom: 3em;
 }
 
-
 .recaptcha {
    width: 100%;
+   margin: 2em 0;
 }
 
 .feedback-input {
@@ -310,6 +313,12 @@ footer {
    }
 }
 
+@media (max-width: 400px) {
+   .rc-anchor {
+      max-width: 250px;
+   }
+   
+}
 
 @media (min-width: 650px){
    .hero {

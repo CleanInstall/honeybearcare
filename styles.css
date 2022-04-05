@@ -51,6 +51,8 @@ header {
 }
 
 .top_nav {
+  background-color: white;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,6 +63,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 1em;
+  padding: .5em 1em;
 }
 
 .top_nav li {
@@ -71,7 +74,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
+  color: black;
   font-size: 1.625rem;
 }
 
@@ -220,6 +223,7 @@ form {
 
 .recaptcha {
   width: 100%;
+  margin: 2em 0;
 }
 
 .feedback-input {
@@ -330,6 +334,12 @@ footer .info li {
 
 footer .info li:not(:last-child) {
   margin-bottom: .5em;
+}
+
+@media (max-width: 400px) {
+  .rc-anchor {
+    max-width: 250px;
+  }
 }
 
 @media (min-width: 650px) {
