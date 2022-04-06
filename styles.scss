@@ -64,6 +64,7 @@ header {
    display: flex;
    color: black;
    font-size: 1.625rem;
+   align-items: center;
 }
 
 .menu_bar{
@@ -310,6 +311,25 @@ footer {
       li:not(:last-child){
          margin-bottom: .5em;
       }
+   }
+}
+
+.program_card {
+   background-color: #ac19f0;
+   color: white;
+   padding: 3em;
+   max-width: 90%;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: 4px 2px 5px grey;
+   margin-bottom: 3em;
+
+   h2{
+      margin-bottom: .5em;
+   }
+
+   h4 {
+      margin-bottom: .5em;
    }
 }
 
@@ -579,10 +599,13 @@ footer {
    .info li {
       color: white;
    }
+
+   .program_card{
+      max-width: 54%;
+   }
 }
 
 .page_content {
-   height: 50rem;
    background-color: white;
    padding: 1.5em;
 }
@@ -596,11 +619,3 @@ footer {
    text-align: center;
 }
 
-.program_card {
-   background-color: #ac19f0;
-   color: white;
-   padding: 1em;
-   max-width: 50%;
-   border-radius: 20px;
-   box-shadow: 4px 2px 5px grey;
-}

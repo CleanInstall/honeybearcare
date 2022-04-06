@@ -76,6 +76,9 @@ header {
   display: flex;
   color: black;
   font-size: 1.625rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu_bar {
@@ -336,6 +339,26 @@ footer .info li:not(:last-child) {
   margin-bottom: .5em;
 }
 
+.program_card {
+  background-color: #ac19f0;
+  color: white;
+  padding: 3em;
+  max-width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 2px 5px grey;
+          box-shadow: 4px 2px 5px grey;
+  margin-bottom: 3em;
+}
+
+.program_card h2 {
+  margin-bottom: .5em;
+}
+
+.program_card h4 {
+  margin-bottom: .5em;
+}
+
 @media (max-width: 400px) {
   .rc-anchor {
     max-width: 250px;
@@ -577,10 +600,12 @@ footer .info li:not(:last-child) {
   .info li {
     color: white;
   }
+  .program_card {
+    max-width: 54%;
+  }
 }
 
 .page_content {
-  height: 50rem;
   background-color: white;
   padding: 1.5em;
 }
@@ -592,15 +617,5 @@ footer .info li:not(:last-child) {
 .page_heading {
   margin-bottom: 1em;
   text-align: center;
-}
-
-.program_card {
-  background-color: #ac19f0;
-  color: white;
-  padding: 1em;
-  max-width: 50%;
-  border-radius: 20px;
-  -webkit-box-shadow: 4px 2px 5px grey;
-          box-shadow: 4px 2px 5px grey;
 }
 /*# sourceMappingURL=styles.css.map */
