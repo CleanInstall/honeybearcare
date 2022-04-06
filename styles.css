@@ -51,7 +51,7 @@ header {
 }
 
 .top_nav {
-  background-color: white;
+  background-color: #fff;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -592,5 +592,15 @@ footer .info li:not(:last-child) {
 .page_heading {
   margin-bottom: 1em;
   text-align: center;
+}
+
+.program_card {
+  background-color: #ac19f0;
+  color: white;
+  padding: 1em;
+  max-width: 50%;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 2px 5px grey;
+          box-shadow: 4px 2px 5px grey;
 }
 /*# sourceMappingURL=styles.css.map */
