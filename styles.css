@@ -309,8 +309,6 @@ textarea {
 .map {
   width: 80%;
   margin: auto;
-  height: 10rem;
-  background-color: #c4c4c4;
 }
 
 footer {
@@ -592,10 +590,9 @@ footer .info li:not(:last-child) {
     margin-bottom: 1em;
   }
   .map {
-    width: 80%;
+    width: 100%;
     margin: auto;
     height: 30rem;
-    background-color: #c4c4c4;
   }
   .footer {
     background: #ae29ff;
