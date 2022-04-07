@@ -333,6 +333,20 @@ footer {
    }
 }
 
+.registration {
+   text-align: center;
+}
+
+.rate {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 2em;
+
+   h4:not(:last-child){
+      margin-right: 2em;
+   }
+}
+
 @media (max-width: 400px) {
    .rc-anchor {
       max-width: 250px;
