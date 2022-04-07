@@ -293,6 +293,16 @@ textarea {
       margin: auto;      
 }
 
+.mapouter{
+   position:relative;
+   text-align:right;
+   height:auto;
+   width:100%; 
+   margin:auto;
+}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:auto;width:100%; margin:auto;}
+
 footer {
    padding: 2em 0;
  
@@ -342,11 +352,19 @@ footer {
    li {
       margin-bottom: 2em;
    }
-}
+}  
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+   .full_view {
+      height: 100vh;
+   }
+   
    .rc-anchor {
       max-width: 250px;
+   }
+
+   .map {
+      width: 100%;
    }
    
 }
@@ -598,6 +616,7 @@ footer {
       background: #ae29ff;
       height: 21.25rem;
       padding: 3em 6em;
+
    }
 
    .info {
