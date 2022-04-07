@@ -354,6 +354,15 @@ footer {
    }
 }  
 
+.learn_more {
+   color: #fcef91;
+   transition: color 300ms ease-in-out;
+
+   &:hover {
+      color: #ffe100;
+   }
+}
+
 @media (max-width: 450px) {
    .full_view {
       height: 100vh;
@@ -621,7 +630,9 @@ footer {
 
    .info {
       display: flex;
-      flex-direction: row; 
+      flex-direction: row
+      
+      ; 
       justify-content: space-around;
    }
 

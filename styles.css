@@ -389,6 +389,16 @@ footer .info li:not(:last-child) {
   margin-bottom: 2em;
 }
 
+.learn_more {
+  color: #fcef91;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.learn_more:hover {
+  color: #ffe100;
+}
+
 @media (max-width: 450px) {
   .full_view {
     height: 100vh;
