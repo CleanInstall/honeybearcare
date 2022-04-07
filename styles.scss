@@ -361,7 +361,13 @@ footer {
    &:hover {
       color: #ffe100;
    }
+
 }
+
+.block_text {
+   margin-bottom: 1em;
+}
+
 
 @media (max-width: 450px) {
    .full_view {

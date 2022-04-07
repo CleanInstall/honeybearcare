@@ -399,6 +399,10 @@ footer .info li:not(:last-child) {
   color: #ffe100;
 }
 
+.block_text {
+  margin-bottom: 1em;
+}
+
 @media (max-width: 450px) {
   .full_view {
     height: 100vh;
