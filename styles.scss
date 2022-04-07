@@ -340,10 +340,9 @@ footer {
 .rate {
    display: flex;
    justify-content: space-around;
-   margin-bottom: 2em;
 
-   h4:not(:last-child){
-      margin-right: 2em;
+   li {
+      margin-bottom: 2em;
    }
 }
 
@@ -622,6 +621,7 @@ footer {
 .page_content {
    background-color: white;
    padding: 1.5em;
+
 }
 
 .full_view {
@@ -632,4 +632,6 @@ footer {
    margin-bottom: 1em;
    text-align: center;
 }
+
+
 
