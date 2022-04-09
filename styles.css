@@ -403,6 +403,10 @@ footer .info li:not(:last-child) {
   margin-bottom: 1em;
 }
 
+.block_text li {
+  list-style-type: circle;
+}
+
 @media (max-width: 450px) {
   .full_view {
     height: 100vh;
@@ -634,6 +638,10 @@ footer .info li:not(:last-child) {
     background: #ae29ff;
     height: 21.25rem;
     padding: 3em 6em;
+  }
+  .image {
+    width: 179px;
+    height: 134px;
   }
   .info {
     display: -webkit-box;

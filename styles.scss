@@ -366,8 +366,12 @@ footer {
 
 .block_text {
    margin-bottom: 1em;
-}
+   
+   li {
+      list-style-type: circle;
+   }
 
+}
 
 @media (max-width: 450px) {
    .full_view {
@@ -633,6 +637,13 @@ footer {
       padding: 3em 6em;
 
    }
+   
+
+   .image {
+      width: 179px;
+      height: 134px;
+   }
+
 
    .info {
       display: flex;
